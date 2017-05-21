@@ -1,7 +1,7 @@
 {
   "name": "fulljs",
   "version": "1.0.0",
-  "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
+  "description": "Aprendiendo: MongoDB, Node.js, React.js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/jscomplete/learn-fullstack-javascript.git)"
+    "url": "git+https://github.com/devonmx/fulljs.git"
   },
   "author": "DevonMX",
   "license": "GPL-3.0",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.15.3",
     "mongodb": "^2.2.26",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -27,7 +27,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^3.19.0",
-    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react": "^7.0.1",
     "nodemon": "^1.11.0",
     "webpack": "^2.5.1"
   }
